@@ -34,52 +34,52 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="akademik">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-school-flag" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="akademik" :class="{ slct: showAkademik}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-school-flag icons" style="width: 64px; height: 64px;"/></span>
             <p>Akademik</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="puti">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-user-gear" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="puti" :class="{ slct: showPuti}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-user-gear icons" style="width: 64px; height: 64px;"/></span>
             <p>PuTi</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="kemahasiswaan">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-graduation-cap" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="kemahasiswaan" :class="{ slct: showKemahasiswaan}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-graduation-cap icons" style="width: 64px; height: 64px;"/></span>
             <p>Kemahasiswaan</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="logistik">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-box" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="logistik" :class="{ slct: showLogistik}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-box icons" style="width: 64px; height: 64px;"/></span>
             <p>Logistik</p>
           </div>
         </div>
 
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="keuangan">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-coins" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="keuangan" :class="{ slct: showKeuangan}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-coins icons" style="width: 64px; height: 64px;"/></span>
             <p>Keuangan</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="perpustakaan">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-book" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="perpustakaan" :class="{ slct: showPerpustakaan}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-book icons" style="width: 64px; height: 64px;"/></span>
             <p>Perpustakaan</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="ftib">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-code" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="ftib" :class="{ slct: showFtib}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-code icons" style="width: 64px; height: 64px;"/></span>
             <p>FTIB</p>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="fteic">
-            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-bolt" style="width: 64px; height: 64px; color: #24253b;"/></span>
+        <div class="col-md-3 col-sm-3">
+          <div class="card text-center pt-5 pb-3 px-4 mb-3" @click="fteic" :class="{ slct: showFteic}">
+            <span class="mb-3"><font-awesome-icon icon="fa-solid fa-bolt icons" style="width: 64px; height: 64px;"/></span>
             <p>FTEIC</p>
           </div>
         </div>
@@ -298,5 +298,15 @@ export default {
   .copyright-text{
     color: #aa0000;
     font-weight: 600;
+  }
+  .card.slct{
+    background: #aa0000;
+    color: white;
+  }
+  .card.slct p{
+    color: white;
+  }
+  .card.slct .icons{
+    color: white;
   }
 </style>
