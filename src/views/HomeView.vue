@@ -104,18 +104,18 @@
       <div class="container">
         <!--Footer-->
         <div class="row pt-5">
-          <div class="col-md-3">
+          <div class="col-md-3 mb-3">
             <h3>Student Service Center</h3>
             <p>Contact</p>
             <p class="fluid-p">Address: Jl. Ketintang No.156, Gayungan, Surabaya, Jawa Timur 60231</p>
             <p class="fluid-p">Phone: (+6231) 8280800</p>
             <p class="fluid-p">Email: humas@ittelkom-sby.ac.id</p>
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 mb-3">
             <h5 class="mb-4">Aplikasi Student Service Center</h5>
             <p class="fst-italic">Ditunjukkan untuk mempermudah perangkat kerja serta mahasiswa Institut Teknologi Telkom Surabaya untuk melakukan pelaporan pemintaan bantuan, demi terciptanya lingkungan kerja serta perkuliahan yang lebih baik dan efisien.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 mb-3">
             <h5 class="mb-4">My Account</h5>
             <div class="link-home">
               <a href="https://ssc.ittelkom-sby.ac.id/operator-sign-in" class="mb-2">My History</a>
